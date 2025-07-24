@@ -1,14 +1,11 @@
-/* @author mansi
-*Date : July 24,2025
-*/
 import java.util.ArrayList;
 import java.util.List;
 
 public class UnoGame {
-    private Deck deck;
-    private DiscardPile discardPile;
-    private List<Player> players;
-    private int direction;
+    private final Deck deck;
+    private final DiscardPile discardPile;
+    private final List<Player> players;
+    private final int direction;
     private int currentPlayerIndex;
 
     public UnoGame() {
