@@ -6,6 +6,7 @@
 /**
  *
  * @author mansi
+ * Date : July 24,2025
  */
 public class Card {
     private String color;
